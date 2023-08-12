@@ -1,0 +1,9 @@
+name = "mycrate"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Audrius Grigaitis"]
+maintainers = ["Audrius Grigaitis <gambler-app@outlook.com>"]
+maintainers-logins = ["audrew33"]
+
+executables = ["mycrate"]
