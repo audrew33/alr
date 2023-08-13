@@ -1,0 +1,12 @@
+name = "pico_with_ada"
+description = "Ada/Spark projects on the Raspberry Pi Pico"
+version = "0.0.1"
+
+authors = ["Rowan Saunders"]
+auto-gpr-with=false
+project-files = [
+    "window.gpr"]
+
+[[depends-on]]
+pico_bsp = "^1.1.0"
+gnat_arm_elf = "*"
